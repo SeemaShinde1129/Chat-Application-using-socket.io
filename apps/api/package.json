@@ -1,0 +1,30 @@
+{
+  "name": "quick-talk-backend",
+  "version": "1.0.0",
+  "description": "this is the backend application where we are making the real time application usign the node js for chat application with using the websocket ( Socket.io )",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karandabre19/sima-shinde-chat-application.git"
+  },
+  "author": "Seema shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karandabre19/sima-shinde-chat-application/issues"
+  },
+  "homepage": "https://github.com/Karandabre19/sima-shinde-chat-application#readme",
+  "dependencies": {
+    "@fastify/env": "^6.0.0",
+    "@fastify/websocket": "^11.2.0",
+    "fastify": "^5.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
